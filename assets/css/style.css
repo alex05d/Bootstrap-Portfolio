@@ -25,7 +25,7 @@ body {
  }
  .container {
  width: auto;
- max-width: 680px;
+ max-width: auto;
  padding: 0 15px;
  
  }
@@ -75,8 +75,35 @@ body {
     width: 185px;
     height:185px;
     display:block;
-    background-image: url(assets\images\city.jpg);
+    background-image: url();
   }
   .urlImg:hover {
     background-image: url(./assets/images/shark.png);
   }
+.contact {
+    height: 500px;
+    width: 600px;
+}
+#main-con {
+    margin-top: 100px;
+}
+.my-col1 {
+    height: 150px;
+    width: 200px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+img {
+    height: 150px;
+    width: 200;
+    position: absolute;
+}
+.images {
+    position: absolute;
+    margin-top: 115px;
+    width: 200px;
+    overflow: hidden;
+    color:white;
+    background-color: teal;
+    padding: 0;
+}
