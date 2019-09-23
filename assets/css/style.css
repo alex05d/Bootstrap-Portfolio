@@ -79,7 +79,6 @@ body {
      font-family: 'Vollkorn', serif;
  }
  .urlImg {
-    width: 75px;
     height:300px;
     display:block;
     background-image: url(../images/alex1.jpg);
@@ -119,4 +118,5 @@ img {
     color:white;
     background-color: teal;
     padding: 0;
+    text-align: center;
 }
