@@ -95,6 +95,8 @@ body {
 .contact {
     height: 500px;
     width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 #main-con {
     margin-top: 100px;
@@ -119,4 +121,8 @@ img {
     background-color: teal;
     padding: 0;
     text-align: center;
+}
+.card-body{
+    font-weight: bolder;
+    font-style: italic;
 }
