@@ -107,13 +107,13 @@ body {
 }
 img {
     height: 150px;
-    width: 200;
+    width: 250px;
     position: absolute;
 }
 .images {
     position: absolute;
     margin-top: 115px;
-    width: 200px;
+    width: 250px;
     overflow: hidden;
     color:white;
     background-color: teal;
