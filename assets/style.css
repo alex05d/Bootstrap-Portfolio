@@ -10,6 +10,9 @@ body{
 .row{
     margin:0px;
 }
+p{
+    font-size: 18px;
+}
 .wrapper-top{
     background: linear-gradient(325deg, #0001ff, #ff5500);
     background-size: 400% 400%;
@@ -239,8 +242,8 @@ footer{
 }
 #pic {
     
-    border-style: solid;
-    border-color: blue;
+    /* border-style: solid;
+    border-color: blue; */
 }
 .hexa{
     height: 100%;
