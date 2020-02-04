@@ -73,7 +73,7 @@ p{
     text-decoration: none;
 }
 #about{
-    height: 500px;
+    height: auto;
     width: auto;
     margin-top: 10%;
     margin-bottom: 10%;
@@ -241,9 +241,7 @@ footer{
     border: none;
 }
 #pic {
-    
-    /* border-style: solid;
-    border-color: blue; */
+    margin-top: 50px;
 }
 .hexa{
     height: 100%;
