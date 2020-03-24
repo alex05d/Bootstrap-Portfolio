@@ -5,6 +5,8 @@ const nodemailer = require("nodemailer");
 const path = require('path')
 require("dotenv").config();
 
+var PORT = process.env.PORT || 3000;
+
 const app = express();
 
 
@@ -75,4 +77,6 @@ app.post("/send", (req, res) => {
 
 // main().catch(console.error);
 
-app.listen(3000, () => console.log('Sever started...'));
+app.listen(PORT, function () {
+    console.log("server listening on: http://localhost: " + PORT);
+});
