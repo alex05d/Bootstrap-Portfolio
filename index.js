@@ -7,14 +7,14 @@ require("dotenv").config();
 
 const app = express();
 
-app.engine('handlebars', exphbs({ defaultLayout: "main" }));
-app.set('view engine', 'handlebars');
 
 app.use('/public', express.static(path.join(__dirname, 'public')));
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
+app.engine('handlebars', exphbs({ defaultLayout: "main" }));
+app.set('view engine', 'handlebars');
 
 app.get("/", (req, res) => {
     res.render('index');
