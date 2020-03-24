@@ -1,7 +1,7 @@
 {
   "name": "bootstrap-portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "* Bootstrap\r * Express\r * Express Handlebars\r * BodyParser\r * Nodemailer\r * HTML5\r * CSS",
   "main": "index.js",
   "dependencies": {
     "body-parser": "^1.19.0",
@@ -18,8 +18,8 @@
     "type": "git",
     "url": "git+https://github.com/alex05d/Bootstrap-Portfolio.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Alexiss Diaz",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/alex05d/Bootstrap-Portfolio/issues"
   },
